@@ -1,0 +1,17 @@
+<template>
+    <div>
+        <div>
+            <title>合同会社優飛</title>
+            <ul>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+        <button>採用情報</button>
+    </div>
+</template>
+<script>
+</script>
+<style>
+</style>
