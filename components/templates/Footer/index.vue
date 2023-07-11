@@ -12,4 +12,16 @@
 <script>
 </script>
 <style lang="scss" scoped>
+.footer {
+    &__list {
+        width: 328px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        list-style: none;
+    }
+    &__copyright {
+        margin-inline: auto;
+    }
+}
 </style>
