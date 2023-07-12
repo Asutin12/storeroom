@@ -8,7 +8,7 @@
         </ul>
         <hr class="footer__horizontalline">
         <div class="footer__copyright">
-            <p>Copyright &copy; yuuhi,inc.All Rights Reserved.</p>
+            <p>Copyright &copy; yuuhi,LLCLLC.All Rights Reserved.</p>
         </div>
     </div>
 </template>
@@ -16,10 +16,10 @@
 </script>
 <style lang="scss" scoped>
 .footer {
-    color: #fff;
+    color: #1f1f1f;
     width: 100%;
     height: 100px;
-    background-color: gray;
+    background-color: #f5f5f5;
     padding-inline: 24px;
     &__list {
         width: 328px;
@@ -31,7 +31,7 @@
         margin-left: 80px;
     }
     &__horizontalline {
-        color: #fff;
+        color: #1f1f1f;
     }
     &__copyright {
         margin-inline: auto;
