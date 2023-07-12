@@ -16,8 +16,8 @@
 <style lang="scss" scoped>
 .header {
     height: 64px;
-    background-color: gray;
-    color: #fff;
+    background-color: #f5f5f5;
+    color: #1f1f1f;
     display: flex;
     justify-content: space-between;
     padding-inline: 24px;
@@ -35,11 +35,19 @@
         }
     }
     &__button {
-        width: 80px;
-        height: 32px;
-        background: #fff;
-        color: gray;
-        border-radius: 20px;
+        width: auto;
+        background-color: #096fca;
+        border-color: #096fca;
+        color: #f5f5f5;
+        border-radius: 48px;
+        padding: 8px 38px;
+        font-size: 16px;
+        &:hover {
+            background-color: #f5f5f5;
+            border-color: #096fca;
+            color: #096fca;
+            transition: .5s;
+        }
     }
 }
 </style>
