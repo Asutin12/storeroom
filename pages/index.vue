@@ -1,11 +1,14 @@
 <template>
-  <Tutorial/>
+    <div class="">
+        <Top />
+    </div>
 </template>
+<script>
+import Top from '@/components/templates/Top'
 
-<script lang="ts">
-import Vue from 'vue'
-
-export default Vue.extend({
-  name: 'IndexPage'
-})
+export default {
+    components: {
+        Top
+    }
+}
 </script>
