@@ -21,6 +21,7 @@ export default {
 <style lang="scss" scoped>
 .overview {
     max-width: 1200px;
+    height: 1470px;
     margin-inline: auto;
     &__title {
         margin-inline: auto;
