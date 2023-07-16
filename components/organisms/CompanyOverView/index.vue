@@ -1,7 +1,9 @@
 <template>
     <div class="">
-        <img class="overview-img" src="../../../assets/image/overview/image.svg" alt="CompanyOverview">
-        <div>TODO:会社概要</div>
+        <img class="overviewTitle" src="../../../assets/images/overview/title.svg" alt="CompanyOverview">
+        <div>
+            <img src="../../../assets/images/overview/subtitle.svg" alt="subTitle">
+        </div>
     </div>
 </template>
 <style lang="scss" scoped>
