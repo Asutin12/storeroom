@@ -18,6 +18,8 @@ export default {
     display: flex;
     align-items: center;
     border-bottom: 1px solid #000000;
+    padding-bottom: 16px;
+    margin-top: 32px;
     &__category {
         width: 150px;
     }
