@@ -22,16 +22,16 @@ export default {
                     item: '2000年12月12日'
                 },
                 {
-                    category:'設立',
-                    item: '2000年12月12日'
+                    category:'事業内容',
+                    item: 'hogehogehoge'
                 },
                 {
-                    category:'設立',
-                    item: '2000年12月12日'
+                    category:'代表者名',
+                    item: 'hogehogehoge'
                 },
                 {
-                    category:'設立',
-                    item: '2000年12月12日'
+                    category:'事務所所在地',
+                    item: 'hogehogehoge'
                 }
             ]
         }
