@@ -24,9 +24,9 @@
                 </li>
             </ul>
         </div>
-        <button class="header__button">
+        <NuxtLink class="header__button" to="/recruit">
             採用情報
-        </button>
+        </NuxtLink>
     </div>
 </template>
 <script>
@@ -54,17 +54,18 @@
     }
     &__button {
         width: auto;
+        text-decoration: none;
         background-color: #096fca;
-        border-color: #096fca;
+        border: 1px solid #096fca;
         color: #f5f5f5;
         border-radius: 48px;
         padding: 8px 38px;
         font-size: 16px;
         &:hover {
             background-color: #f5f5f5;
-            border-color: #096fca;
+            border: 1px solid #096fca;
             color: #096fca;
-            transition: .5s;
+            transition: .3s;
         }
     }
 }
