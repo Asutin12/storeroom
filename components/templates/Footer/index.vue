@@ -24,7 +24,7 @@
         </ul>
         <hr class="footer__horizontalline">
         <div class="footer__copyright">
-            <p>Copyright &copy; yuuhi,LLCLLC.All Rights Reserved.</p>
+            <p>Copyright &copy; yuuhi,LLC.All Rights Reserved.</p>
         </div>
     </div>
 </template>
