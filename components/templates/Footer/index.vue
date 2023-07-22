@@ -17,7 +17,7 @@
                 </NuxtLink>
             </li>
             <li class="footer__item">
-                <NuxtLink class="link" to="/">
+                <NuxtLink class="link" to="/recruit">
                     採用情報
                 </NuxtLink>
             </li>
