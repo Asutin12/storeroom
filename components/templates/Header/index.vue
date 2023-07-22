@@ -4,7 +4,7 @@
             <div class="header__global-nav__title">合同会社優飛</div>
             <ul class="header__global-nav__list">
                 <li class="header__global-nav__item">事業内容</li>
-                <li class="header__global-nav__item">会社概要</li>
+                <li class="header__global-nav__item">企業情報</li>
                 <li class="header__global-nav__item">カタログ</li>
             </ul>
         </div>
