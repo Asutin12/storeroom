@@ -14,6 +14,7 @@ export default {
 </script>
 <style lang="scss" scoped>
 .top {
+    padding-block: 32px;
     background-color: #f5f5f5;
 }
 </style>
