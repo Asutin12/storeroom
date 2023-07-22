@@ -1,29 +1,39 @@
 <template>
     <div class="header">
         <div class="header__global-nav">
-            <div class="header__global-nav__title">
-                <NuxtLink to="/">
+            <div class="header__global-nav-title">
+                <NuxtLink class="link" to="/">
                     合同会社優飛
                 </NuxtLink>
             </div>
             <ul class="header__global-nav__list">
-                <li class="header__global-nav__item">事業内容</li>
-                <li class="header__global-nav__item">
-                    <NuxtLink to="/company">
+                <li class="header__global-nav-item">
+                    <NuxtLink class="link" to="/">
+                        事業内容
+                    </NuxtLink>
+                </li>
+                <li class="header__global-nav-item">
+                    <NuxtLink class="link" to="/company">
                         企業情報
                     </NuxtLink>
                 </li>
-                <li class="header__global-nav__item">カタログ</li>
+                <li class="header__global-nav-item">
+                    <NuxtLink class="link" to="/">
+                        カタログ
+                    </NuxtLink>
+                </li>
             </ul>
         </div>
-        <button class="header__button">採用情報</button>
+        <button class="header__button">
+            採用情報
+        </button>
     </div>
 </template>
 <script>
 </script>
 <style lang="scss" scoped>
 .header {
-    height: 64px;
+    padding-block: 16px;
     background-color: #f5f5f5;
     color: #1f1f1f;
     display: flex;
@@ -56,6 +66,16 @@
             color: #096fca;
             transition: .5s;
         }
+    }
+}
+.link {
+    text-decoration: none;
+    color: #1f1f1f;
+    font-weight: bold;
+    &:hover {
+        color: #096fca;
+        transition: .5s;
+
     }
 }
 </style>

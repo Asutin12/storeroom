@@ -1,10 +1,26 @@
 <template>
     <div class="footer">
         <ul class="footer__list">
-            <li class="footer__item">事業内容</li>
-            <li class="footer__item">企業情報</li>
-            <li class="footer__item">カタログ</li>
-            <li class="footer__item">採用情報</li>
+            <li class="footer__item">
+                <NuxtLink class="link" to="/">
+                    事業内容
+                </NuxtLink>
+            </li>
+            <li class="footer__item">
+                <NuxtLink class="link" to="/company">
+                    企業情報
+                </NuxtLink>
+            </li>
+            <li class="footer__item">
+                <NuxtLink class="link" to="/">
+                    カタログ
+                </NuxtLink>
+            </li>
+            <li class="footer__item">
+                <NuxtLink class="link" to="/">
+                    採用情報
+                </NuxtLink>
+            </li>
         </ul>
         <hr class="footer__horizontalline">
         <div class="footer__copyright">
@@ -37,6 +53,16 @@
         margin-inline: auto;
         text-align: center;
         margin-block: 8px;
+    }
+}
+.link {
+    text-decoration: none;
+    color: #1f1f1f;
+    font-weight: bold;
+    &:hover {
+        color: #096fca;
+        transition: .5s;
+
     }
 }
 </style>
