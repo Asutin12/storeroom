@@ -15,7 +15,7 @@
 </script>
 <style lang="scss" scoped>
 .header {
-    height: 64px;
+    padding-block: 16px;
     background-color: #f5f5f5;
     color: #1f1f1f;
     display: flex;
