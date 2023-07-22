@@ -8,7 +8,7 @@
             </div>
             <ul class="header__global-nav__list">
                 <li class="header__global-nav-item">
-                    <NuxtLink class="link" to="/">
+                    <NuxtLink class="link" to="business">
                         事業内容
                     </NuxtLink>
                 </li>
