@@ -2,7 +2,7 @@
     <div class="footer">
         <ul class="footer__list">
             <li class="footer__item">
-                <NuxtLink class="link" to="/">
+                <NuxtLink class="link" to="/business">
                     事業内容
                 </NuxtLink>
             </li>
